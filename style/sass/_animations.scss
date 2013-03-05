@@ -1,0 +1,38 @@
+@include keyframes(pop-in){
+	0% {
+		@include opacity(0);
+		@include scale(.8);
+	}
+	50% {
+		@include opacity(1);
+		@include scale(1.2);
+	}
+	100% {
+		@include opacity(1);
+		@include scale(1);
+	}
+}
+
+@include keyframes(pop-out){
+	0% {
+		@include opacity(1);
+		@include scale(1);
+	}
+	30% {
+		@include opacity(0);
+		@include scale(.75);
+	}
+	100% {
+		@include opacity(0);
+		@include scale(.75);
+	}
+}
+
+
+@include keyframes(fade-in){
+	0% { @include opacity(0); }
+	100% { @include opacity(1);	}
+}
+
+
+

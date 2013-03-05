@@ -1,0 +1,497 @@
+.kjor{
+    color: #333333;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow-x:hidden; 
+    
+    //Grid
+    .oneFourths,
+    .twoFourths,
+    .threeFourths,
+    .fourFourths,
+    .oneFifths,
+    .twoFifths,
+    .threeFifths,
+    .fourFifths,
+    .fiveFifts{
+        padding-left: 2%;
+        &.first{
+            padding-left: 0;
+        }
+    }
+    
+    .oneFourths{width: 23%;}
+    .twoFourths{width:47%;}
+    .threeFourths{width:72%;}
+    .fourFourths{width:100%;}
+    
+    .oneFifths{width:18%;}
+    .twoFifths{width:38%;}
+    .threeFifths{width:58%;}
+    .fourFifths{width:78%;}
+    .fiveFifts{width:100%;}
+    
+    // Main Title
+    #title {
+        color: #333333;
+        font-family: "Century Gothic" , 'Didact Gothic', sans-serif; 
+        font-weight: bold;
+		font-size: 5.625em;
+    }
+    
+    //Menu bar
+    nav{
+          background: #121212; /* Old browsers */
+
+
+        a.logo{
+            border-right: 1px solid #000;
+            color: #2a2a2a; 
+        }
+        h1{
+            border-left: 1px solid #262626;
+            color: #e2a90e; 
+        }
+    }
+    a{
+        text-decoration: none;
+		color:#666;
+        &:hover,&:active{
+            text-decoration: underline;
+
+        }
+		&:visited{
+			text-decoration: none;
+			color:inherit;
+		}
+    }
+
+    blockquote{
+        font-size: 1.875em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    em{
+        font-weight: bold; 
+    }
+    h1,h2,h3{font-family: "Century Gothic" , 'Didact Gothic', sans-serif; font-weight: bold;}
+    h1{
+        font-size: 2.5em;
+        line-height: 1.3em;
+    }
+    h2{
+        font-size: 1.875em;
+        line-height: 1em;
+        margin-bottom: 5px; 
+    }
+    p,ol,ul{
+        font-size: 1em;
+        margin-bottom: 20px;
+		line-height: 1.6em;
+        
+    }
+    .blue{
+        color: #0098d4; 
+    }
+    .subText{
+        font-size: 1.875em;
+    }
+    
+    section{
+        padding: 50px 0;
+        width: 100%;
+        min-height: 100%;
+        @include single-transition(all);
+		@include transition-duration(0.2s);
+
+        header{
+            margin: 10px auto 50px; 
+        }
+        article{
+            margin: 40px 0; 
+        }
+        
+        &:nth-child(even) {
+            background: #ffffff;
+        }
+        &:nth-child(odd) {
+            background: #f4f4f4;
+            border-color: #dbdbdb;
+            border-width: 2px 0px 2px 0px;
+            border-style: solid; 
+        }
+        
+        
+        &.animation{
+        }
+        
+        //Custom section styles
+        &#aboutClient{
+            &.animation{
+            }
+        }
+        
+        &#challenge{
+			.right{
+				margin-right:10%;
+			}
+            #stamp{
+                @include single-transition(all);
+				@include transition-duration(0.2s);
+                @include scale(20);
+                @include opacity(0);
+            }
+            &.animation,
+			&.no-animation{
+                #stamp{
+                    @include scale(1);
+                    @include opacity(1);
+                }
+            }
+        }
+        &#strategyAndUx{
+            
+            ol{
+                width: 100%;
+                li{
+                    display: inline;
+                    float: left;
+                    width: 15%;
+                    margin-left: 5%;
+                    text-align: center;
+                    @include scale(0);
+                    @include single-transition(all);
+                    @include transition-duration(0.2s);
+                
+                    &:first-child{
+                        margin-left: 0; 
+                    }
+                    img{
+                        margin-bottom: 10px; 
+                    }
+                }
+            }
+            #wireframes{
+				$wireframesHeight:550px;
+                position: relative;
+                min-height: $wireframesHeight;
+                width: 100%;
+                
+                img{
+                    position: relative;
+                    @include single-transition(all);
+                    @include transition-duration(1s);
+                }
+                #top_wire{
+                    z-index: 3;
+                    left: -150%;
+                }
+                #middle_wire{
+                    z-index: 2;
+					margin-top: -$wireframesHeight;
+                    left: 150%;
+                }
+                #bottom_wire{
+                    z-index: 1;
+                    left: -150%;
+					margin-top:-$wireframesHeight;
+                }
+                &.animation,
+				&.no-animation{
+                    img{
+                        left:0 !important;
+                    }
+                }
+            }
+            
+            &.animation{
+                ol li{
+                    @include scale(1);
+                    @include animation-name(pop-in);
+                }
+            }
+			&.no-animation{
+				ol li{
+					@include scale(1);
+				}
+			}
+            
+            #kjorLogo{
+                width: 70%; 
+            }
+            
+            
+        }
+        &#design{
+			.phoneText{
+				width: 33%;
+			}
+            #phoneStack{
+                position: relative;
+				text-align:center;
+				float:left;
+				width:65%;
+                img{
+                    width: auto;
+                    position: relative;
+					@include inline-block;
+                    @include single-transition(left);
+                    @include transition-duration(1s);
+                    @include transition-delay(0);
+                }
+                #iPhone{
+                    z-index: 2;
+					float: left;
+                }
+                #android{
+                    z-index: 1;
+					left:-80px;
+					margin-top:-740px;
+                }
+            }
+            &.animation{
+                #phoneStack{
+                    #android{
+                       left:100px;
+                    }
+                }
+            }
+			&.no-animation{
+				#phoneStack{
+					text-align:center;
+					#android,
+					#iPhone{
+						left:0;
+
+					}
+					#android{
+						margin-top:0;
+						float: left;
+					}
+				}
+			}
+        }
+        &#tech{}
+        &#team{
+			text-align:center;
+            
+            header{
+                h1{
+                    img{
+                        @include opacity(0);
+                        @include single-transition(opacity);
+                        @include transition-duration(.7s);
+                        @include transition-delay(1.2s);
+                    }
+                    span{
+                        @include single-transition(left);
+                        @include transition-duration(.4s);
+                        @include transition-delay(1s);
+                        position: relative;
+                        left: -40px; 
+                    }
+                }
+            }
+            
+            img{
+                @include single-transition(opacity);
+                @include transition-duration(1s);
+            }
+            
+            #drawingImage{
+                position: relative;
+                width: 100%;
+                img{
+                    position: relative;
+                }
+                #drawings{
+                    z-index: 2;
+                    top: -44px;
+                    @include opacity(0);
+                }
+                #people{
+                    z-index: 1;
+					margin-top:-331px;
+                }
+                
+            }
+            
+            &.animation,
+			&.no-animation{
+                header{
+                    h1{
+                        img{
+                             @include opacity(1);
+                        }
+                        span{
+                            left: 0px; 
+                        }
+                    }
+                }
+                #drawingImage{
+                    #drawings{
+                        @include opacity(1); 
+                    }
+                }
+            }
+        }
+        &#results{
+            ul{
+                font-weight: bold;
+				span{
+					@include border-radius(50%);
+					height: 15px;
+					width: 15px;
+					@include inline-block;
+					margin-right:7px;
+					position: relative;
+					top: -1px;
+
+					&.blueBullett{background:#0098d4;}
+					&.greyBullett{background:#666666;}
+				}
+            }
+        }
+    }
+
+    ::-moz-selection{
+
+    }
+    ::selection {
+
+    }
+    footer{
+		background: #f4f4f4;
+		border-color: #dbdbdb;
+		border-width: 2px 0px 2px 0px;
+		border-style: solid;
+
+		p{
+			margin-top:20px;
+			float: left;
+			text-align: left;
+			width:100%;
+
+			a{
+				display: inline;
+				width:auto;
+				float: none;
+			}
+		}
+
+        a{
+            width: 30%;
+            float: left;
+            margin-left: 3%;
+			text-decoration:underline;
+			color:#666;
+
+            &:first-child{
+                margin-left: 0; 
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px){
+        .oneFourths,.twoFourths,.threeFourths,.fourFourths,
+        .oneFifths,.twoFifths,.threeFifths,.fourFifths,.fiveFifts,.phoneText{
+            width: 100% !important;
+            padding: 0;
+        }
+		.nav h1{
+		}
+		header{
+			#title{
+				font-size: 2.1875em;
+			}
+		}
+		blockquote{
+			margin-bottom: 20px;
+		}
+		.subText{
+			font-size: 1em;
+		}
+		h1{
+			font-size: 1.5em;
+		}
+		h2{
+			font-size: 1.25em;
+		}
+		p,li,blockquote{
+			font-size: 0.875em;
+			line-height: 1.3em;
+		}
+		section{
+			padding: 10px 0;
+		}
+		#strategyAndUx{
+			ol{
+				li{
+					width: 40% !important;
+					margin-bottom:12px;
+					&:first-child{
+						margin-left:5% !important;
+					}
+				}
+			}
+		}
+		#rimiLogo{
+			width:60px !important;
+			margin:0 abuto;
+		}
+		#drawings{
+			display: none;
+		}
+		#people{
+			margin-top:0 !important;
+		}
+		#stamp{
+			@include scale(1);
+		}
+		footer{
+			padding:0 !important;
+			margin-top:-50px;
+			a{
+				width:100% !important;
+				margin-left:0 !important;
+				text-align: center;
+			}
+		}
+		#strategyAndUx{
+			#wireframes{
+				min-height: 1px !important;
+
+				img{
+					margin-top:0px !important;
+					left: 0px !important;
+				}
+			}
+			.oneFifths.left.first{
+				width:100%;
+				text-align: center;
+				display: block;
+				margin-bottom:20px;
+			}
+			#middle_wire,#bottom_wire{
+				display: none;
+			}
+		}
+		#design{
+			#phoneStack{
+				width:100% !important;
+				#iPhone,#android{
+					width: 45%;
+				}
+				#android{
+					float: right;
+				}
+				#iPhone{
+					float:left;
+				}
+			}
+		}
+	}
+
+
+}//End rimi

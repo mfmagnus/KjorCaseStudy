@@ -1,0 +1,183 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import
+"compass/reset",
+"compass/css3",
+"animation-mixins",
+"animations",
+"typography",
+"kjor";
+
+
+html{
+    font-size: 100%; 
+}
+body{
+    font-family: sans-serif; 
+}
+
+::-moz-selection{
+
+}
+::selection {
+
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+iframe, video, img {
+    max-width: 100%;
+}
+img{
+    vertical-align: middle;
+    margin: 1% 0; 
+}
+h1{
+    text-transform: uppercase; 
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+
+    h1 {
+        float: left;
+        height: 100%;
+        line-height: 3.6em !important;
+        font-size: 1.2em !important; 
+        padding-left: 20px; 
+    }
+    .logo {
+        float: left;
+        height: 100%;
+        width: 90px;
+        text-align: center;
+        line-height: 65px; 
+    }
+}
+
+#mainHeader {
+    text-align: center;
+    img {
+        position: relative;
+        z-index: 1;
+        margin: 0; 
+    }
+    h1#title {
+           
+            position: relative;
+            margin: 60px 0 40px;
+            
+    }
+}
+.widthLimit {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 1%; 
+}
+
+section,footer {
+    display: block;
+    padding: 30px 2%;  
+    
+    header {
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            text-transform: none; 
+        }
+    }
+    article {
+        
+    }
+}
+
+
+
+// Helpful classes
+.left,.right {
+    width: 48%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    clear: both;
+    margin: 0 auto;
+    width: auto;
+    text-align: center; 
+}
+.full {
+    width: 100%; 
+}
+
+//Picture borders
+.borderAndShadow {
+    border: 6px solid white;
+    @include box-shadow(rgba(0, 0, 0, 0.5) 0px 0px 10px 0px);
+    max-width: 97%; 
+}
+.videoShadow{
+    position: relative;
+    top: -25px;
+    position: relative;
+    z-index: 1; 
+}
+iframe,object,embed{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+@media screen and (max-width: 650px){
+    .left,.right,.center{
+        float: none;
+        clear: both;
+        display: block;
+        width: 100%;
+    }
+	section header h1,
+	footer header h1{
+		//text-align: left;
+	}
+    #nav{
+        height: 45px; 
+        
+        .logo{
+            line-height: 45px;
+            font-size: 1.8em;
+            width: 70px;
+        }
+        h1{
+            line-height: 2.5em !important;
+        }
+    }
+    #mainHeader{
+        h1#title{
+            margin: 10px 0; 
+        }
+    }
+    .videoShadow{
+        top: -10px;
+    }
+    .widthLimit{
+        padding: 5%; 
+    }
+}
+
