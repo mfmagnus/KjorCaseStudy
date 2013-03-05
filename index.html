@@ -167,25 +167,44 @@
                     <p>How do we use exciting new technology to give an immersive and believable feeling of being a "real" backseat driver, while creating addictive and rewarding gameplay.</p>
                 </header>
                 <article class="clearfix">
-                    <div class="twoFifths left first">
-                        <h1>The ecosystem</h1>
-                        <p>The recipes are exactly mapped out with the products in store and made scalable for portions. This way families could plan ahead together and share shopping lists, saving time in stores. Making both planning and shopping that much easier.</p>
-                        <p>With a central repository and backend, all platforms communicate with the same central HUB which contains all the content found in the Rimiverse. Thus, independent of whether you are surfing the web or using a platform tailored app, the content and functionality is the same. With intelligent sychronization of content, everyone is up to date everywhere at all times, making planning and shopping a quick and streamlined process.</p>
+                    <div class="threeFifths left first">
+                        <h1>Speed &amp; Position</h1>
+                        <p>Smartphones and tables these days have access to a GPS which becomes the basis for achieving a two key functions; Allowing the car in the game to reflect the speed of the vehicle in which the player actually sits, and knowing exactly where the player is relative to actual Statoil stations.</p>
+                        <h2>Speed</h2>
+                        <p>The first technical challenge lies in using the GPS data in creating an immersive and responsive gameplay that truly gives the passenger the feel of being in control of the car. With intelligent code that balances accuracy with battery usage, we were able to create a realistic gameplay feeling that doesn't end too soon.</p>
+                        <h2>Position</h2>
+                        <p>Having access to GPS data also allows us to pinpoint quite exactly where the player is at all times. By also having the coordinates to all Statoil stations across the country, we can use concepts such as geo-fencing to accurately detect whenever the player is within medium or close range of any given station. Placing roadsigns inside the game informing the player of upcoming Statoil stations gives an early heads-up and since we also have calculated the speed of the car the player is sitting in, we can know whenever the player has pulled into and stopped at a Statoil station.</p>
                     </div>
-                    <div class="threeFifths right">
+                    <div class="twoFifths right">
                         <img src="img/technology/checklist.png" alt="" />
                     </div>
+					<div class="twoFifths right">
+					    <img src="img/technology/checklist.png" alt="" />
+					</div>
                 </article>
                 <article class="clearfix">
                     <div class="twoFourths right">
-                        <h1>Shopping lists in the cloud</h1>
-                        <p>The major technical challenge is to support a distributed and synchronized shopping list sharing service across all platforms.</p>
-                        <p>The communication between the platforms and the central HUB in the cloud is built upon a sophisticated synchronization routine ensuring concurrent and accurate shared content. Thereby any changes done by shared parties become distributed, resulting in a trustworthy and accurate shopping experience. </p>
+                        <h1>Controls</h1>
+                        <p>With accelerometers and gyroscopes now standard in phones and tables, these become the basis for the player's interaction in the game; Steering becomes a natural tilting from side to side much like using a steering wheel, and mini games to refill the tank provides a more all-axis challenge to keep the nozzle from spilling.</p>                        
                     </div>
                     <div class="twoFourths left first">
                         <img src="img/technology/code.jpg" alt="" class="borderAndShadow"/>
                     </div>
                 </article>
+				
+				<article class="clearfix">
+				    <div class="threeFourths left">
+				        <h1>The Third Dimension</h1>
+				        <p>In line with the concept of creating a realistic game world, the choice fell to using Unity3D. Unity3D is a world renowned game development system, a powerful rendering engine fully integrated with a complete set of intuitive tools and rapid workflows to create interactive 3D content.</p>    
+				        <h2>Spawners &amp; The Open Road</h2>
+				        <p>The idea and concept of spawners is simple; It can be viewed as logic that allows for spawning (or creating) and destroying (or removing) game objects such as coins, road tiles, terrain and obstacles in an intelligent manner. One challenge was to giving the player a potentially endless journey, another to create a balanced and entertaining game.</p>
+				        <h2>Curves &amp; Colisions</h2>
+				        <p>Enter curves and collision detection! By using smart and well tuned curves, we can control such concepts like difficulties by balancing the spawning of coins vs. obstacles. Collisions are detected between the player and game objects allowing for collecting rewards and avoiding crashing into obstacles. The road shoulder can be used as a safe haven from obstacles, but it too detects collisions with the player and will slowly drain coins.</p>                    
+				    </div>
+				    <div class="oneFourth left first">
+				        <img src="img/technology/code.jpg" alt="" class="borderAndShadow"/>
+				    </div>
+				</article>
             </div>
         </section>
 
