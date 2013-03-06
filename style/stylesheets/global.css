@@ -886,11 +886,17 @@ nav h1 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 343, ../sass/_kjor.scss */
+/* line 344, ../sass/_kjor.scss */
+.kjor section#results header blockquote {
+  font-size: 2.875em;
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 350, ../sass/_kjor.scss */
 .kjor section#results ul {
   font-weight: bold;
 }
-/* line 345, ../sass/_kjor.scss */
+/* line 352, ../sass/_kjor.scss */
 .kjor section#results ul span {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -909,35 +915,35 @@ nav h1 {
   position: relative;
   top: -1px;
 }
-/* line 354, ../sass/_kjor.scss */
+/* line 361, ../sass/_kjor.scss */
 .kjor section#results ul span.blueBullett {
   background: #0098d4;
 }
-/* line 355, ../sass/_kjor.scss */
+/* line 362, ../sass/_kjor.scss */
 .kjor section#results ul span.greyBullett {
   background: #666666;
 }
-/* line 367, ../sass/_kjor.scss */
+/* line 374, ../sass/_kjor.scss */
 .kjor footer {
   background: #f4f4f4;
   border-color: #dbdbdb;
   border-width: 2px 0px 2px 0px;
   border-style: solid;
 }
-/* line 373, ../sass/_kjor.scss */
+/* line 380, ../sass/_kjor.scss */
 .kjor footer p {
   margin-top: 20px;
   float: left;
   text-align: left;
   width: 100%;
 }
-/* line 379, ../sass/_kjor.scss */
+/* line 386, ../sass/_kjor.scss */
 .kjor footer p a {
   display: inline;
   width: auto;
   float: none;
 }
-/* line 386, ../sass/_kjor.scss */
+/* line 393, ../sass/_kjor.scss */
 .kjor footer a {
   width: 30%;
   float: left;
@@ -945,69 +951,69 @@ nav h1 {
   text-decoration: underline;
   color: #666;
 }
-/* line 393, ../sass/_kjor.scss */
+/* line 400, ../sass/_kjor.scss */
 .kjor footer a:first-child {
   margin-left: 0;
 }
 @media screen and (max-width: 650px) {
-  /* line 401, ../sass/_kjor.scss */
+  /* line 408, ../sass/_kjor.scss */
   .kjor .oneFourths, .kjor .twoFourths, .kjor .threeFourths, .kjor .fourFourths,
   .kjor .oneFifths, .kjor .twoFifths, .kjor .threeFifths, .kjor .fourFifths, .kjor .fiveFifts, .kjor .phoneText {
     width: 100% !important;
     padding: 0;
   }
-  /* line 408, ../sass/_kjor.scss */
+  /* line 415, ../sass/_kjor.scss */
   .kjor header #title {
     font-size: 2.1875em;
   }
-  /* line 412, ../sass/_kjor.scss */
+  /* line 419, ../sass/_kjor.scss */
   .kjor blockquote {
     margin-bottom: 20px;
   }
-  /* line 415, ../sass/_kjor.scss */
+  /* line 422, ../sass/_kjor.scss */
   .kjor .subText {
     font-size: 1em;
   }
-  /* line 418, ../sass/_kjor.scss */
+  /* line 425, ../sass/_kjor.scss */
   .kjor h1 {
     font-size: 1.5em;
   }
-  /* line 421, ../sass/_kjor.scss */
+  /* line 428, ../sass/_kjor.scss */
   .kjor h2 {
     font-size: 1.25em;
   }
-  /* line 424, ../sass/_kjor.scss */
+  /* line 431, ../sass/_kjor.scss */
   .kjor p, .kjor li, .kjor blockquote {
     font-size: 0.875em;
     line-height: 1.3em;
   }
-  /* line 428, ../sass/_kjor.scss */
+  /* line 435, ../sass/_kjor.scss */
   .kjor section {
     padding: 10px 0;
   }
-  /* line 433, ../sass/_kjor.scss */
+  /* line 440, ../sass/_kjor.scss */
   .kjor #strategyAndUx ol li {
     width: 40% !important;
     margin-bottom: 12px;
   }
-  /* line 436, ../sass/_kjor.scss */
+  /* line 443, ../sass/_kjor.scss */
   .kjor #strategyAndUx ol li:first-child {
     margin-left: 5% !important;
   }
-  /* line 442, ../sass/_kjor.scss */
+  /* line 449, ../sass/_kjor.scss */
   .kjor #rimiLogo {
     width: 60px !important;
     margin: 0 abuto;
   }
-  /* line 446, ../sass/_kjor.scss */
+  /* line 453, ../sass/_kjor.scss */
   .kjor #drawings {
     display: none;
   }
-  /* line 449, ../sass/_kjor.scss */
+  /* line 456, ../sass/_kjor.scss */
   .kjor #people {
     margin-top: 0 !important;
   }
-  /* line 452, ../sass/_kjor.scss */
+  /* line 459, ../sass/_kjor.scss */
   .kjor #stamp {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
@@ -1015,50 +1021,50 @@ nav h1 {
     -o-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  /* line 455, ../sass/_kjor.scss */
+  /* line 462, ../sass/_kjor.scss */
   .kjor footer {
     padding: 0 !important;
     margin-top: -50px;
   }
-  /* line 458, ../sass/_kjor.scss */
+  /* line 465, ../sass/_kjor.scss */
   .kjor footer a {
     width: 100% !important;
     margin-left: 0 !important;
     text-align: center;
   }
-  /* line 465, ../sass/_kjor.scss */
+  /* line 472, ../sass/_kjor.scss */
   .kjor #strategyAndUx #wireframes {
     min-height: 1px !important;
   }
-  /* line 468, ../sass/_kjor.scss */
+  /* line 475, ../sass/_kjor.scss */
   .kjor #strategyAndUx #wireframes img {
     margin-top: 0px !important;
     left: 0px !important;
   }
-  /* line 473, ../sass/_kjor.scss */
+  /* line 480, ../sass/_kjor.scss */
   .kjor #strategyAndUx .oneFifths.left.first {
     width: 100%;
     text-align: center;
     display: block;
     margin-bottom: 20px;
   }
-  /* line 479, ../sass/_kjor.scss */
+  /* line 486, ../sass/_kjor.scss */
   .kjor #strategyAndUx #middle_wire, .kjor #strategyAndUx #bottom_wire {
     display: none;
   }
-  /* line 484, ../sass/_kjor.scss */
+  /* line 491, ../sass/_kjor.scss */
   .kjor #design #phoneStack {
     width: 100% !important;
   }
-  /* line 486, ../sass/_kjor.scss */
+  /* line 493, ../sass/_kjor.scss */
   .kjor #design #phoneStack #iPhone, .kjor #design #phoneStack #android {
     width: 45%;
   }
-  /* line 489, ../sass/_kjor.scss */
+  /* line 496, ../sass/_kjor.scss */
   .kjor #design #phoneStack #android {
     float: right;
   }
-  /* line 492, ../sass/_kjor.scss */
+  /* line 499, ../sass/_kjor.scss */
   .kjor #design #phoneStack #iPhone {
     float: left;
   }
