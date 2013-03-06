@@ -14,7 +14,7 @@
     .twoFifths,
     .threeFifths,
     .fourFifths,
-    .fiveFifts{
+    .fiveFifths{
         padding-left: 2%;
         &.first{
             padding-left: 0;
@@ -154,6 +154,8 @@
         &#theGame{ 
             
             ol{
+            	list-style-type: disc;
+            	margin-left: 1em;
                 width: 100%;
                 li{
                     display: inline;
