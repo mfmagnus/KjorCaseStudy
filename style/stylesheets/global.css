@@ -443,7 +443,7 @@ nav h1 {
   overflow-x: hidden;
   font-family: "StagSansLight", "Century Gothic", "Didact Gothic", sans-serif;
 }
-/* line 17, ../sass/_kjor.scss */
+/* line 18, ../sass/_kjor.scss */
 .kjor .oneFourths,
 .kjor .twoFourths,
 .kjor .threeFourths,
@@ -455,7 +455,7 @@ nav h1 {
 .kjor .fiveFifths {
   padding-left: 2%;
 }
-/* line 19, ../sass/_kjor.scss */
+/* line 20, ../sass/_kjor.scss */
 .kjor .oneFourths.first,
 .kjor .twoFourths.first,
 .kjor .threeFourths.first,
@@ -467,120 +467,128 @@ nav h1 {
 .kjor .fiveFifths.first {
   padding-left: 0;
 }
-/* line 24, ../sass/_kjor.scss */
+/* line 25, ../sass/_kjor.scss */
+.kjor .oneThirds {
+  width: 33%;
+}
+/* line 26, ../sass/_kjor.scss */
+.kjor .twoThirds {
+  width: 66%;
+}
+/* line 29, ../sass/_kjor.scss */
 .kjor .oneFourths {
   width: 23%;
 }
-/* line 25, ../sass/_kjor.scss */
+/* line 30, ../sass/_kjor.scss */
 .kjor .twoFourths {
   width: 47%;
 }
-/* line 26, ../sass/_kjor.scss */
+/* line 31, ../sass/_kjor.scss */
 .kjor .threeFourths {
   width: 72%;
 }
-/* line 27, ../sass/_kjor.scss */
+/* line 32, ../sass/_kjor.scss */
 .kjor .fourFourths {
   width: 100%;
 }
-/* line 29, ../sass/_kjor.scss */
+/* line 34, ../sass/_kjor.scss */
 .kjor .oneFifths {
   width: 18%;
 }
-/* line 30, ../sass/_kjor.scss */
+/* line 35, ../sass/_kjor.scss */
 .kjor .twoFifths {
   width: 38%;
 }
-/* line 31, ../sass/_kjor.scss */
+/* line 36, ../sass/_kjor.scss */
 .kjor .threeFifths {
   width: 58%;
 }
-/* line 32, ../sass/_kjor.scss */
+/* line 37, ../sass/_kjor.scss */
 .kjor .fourFifths {
   width: 78%;
 }
-/* line 33, ../sass/_kjor.scss */
+/* line 38, ../sass/_kjor.scss */
 .kjor .fiveFifts {
   width: 100%;
 }
-/* line 38, ../sass/_kjor.scss */
+/* line 43, ../sass/_kjor.scss */
 .kjor #title {
   color: #333333;
   font-family: "StagSemiBold", "Century Gothic", "Didact Gothic", sans-serif;
   font-weight: bold;
   font-size: 5.625em;
 }
-/* line 46, ../sass/_kjor.scss */
+/* line 51, ../sass/_kjor.scss */
 .kjor nav {
   background: #121212;
   /* Old browsers */
 }
-/* line 50, ../sass/_kjor.scss */
+/* line 55, ../sass/_kjor.scss */
 .kjor nav a.logo {
   border-right: 1px solid black;
   color: #2a2a2a;
 }
-/* line 54, ../sass/_kjor.scss */
+/* line 59, ../sass/_kjor.scss */
 .kjor nav h1 {
   font-family: "StagLight";
   border-left: 1px solid #262626;
   color: #e2a90e;
 }
-/* line 60, ../sass/_kjor.scss */
+/* line 65, ../sass/_kjor.scss */
 .kjor a {
   text-decoration: none;
   color: #666;
 }
-/* line 63, ../sass/_kjor.scss */
+/* line 68, ../sass/_kjor.scss */
 .kjor a:hover, .kjor a:active {
   text-decoration: underline;
 }
-/* line 67, ../sass/_kjor.scss */
+/* line 72, ../sass/_kjor.scss */
 .kjor a:visited {
   text-decoration: none;
   color: inherit;
 }
-/* line 73, ../sass/_kjor.scss */
+/* line 78, ../sass/_kjor.scss */
 .kjor blockquote {
   font-size: 1.875em;
   font-weight: bold;
   font-style: italic;
 }
-/* line 78, ../sass/_kjor.scss */
+/* line 83, ../sass/_kjor.scss */
 .kjor em {
   font-weight: bold;
 }
-/* line 81, ../sass/_kjor.scss */
+/* line 86, ../sass/_kjor.scss */
 .kjor h1, .kjor h2, .kjor h3 {
   font-family: "StagSansMedium", "Century Gothic", "Didact Gothic", sans-serif;
   font-weight: bold;
 }
-/* line 82, ../sass/_kjor.scss */
+/* line 87, ../sass/_kjor.scss */
 .kjor h1 {
   font-size: 2.5em;
   line-height: 1.3em;
 }
-/* line 86, ../sass/_kjor.scss */
+/* line 91, ../sass/_kjor.scss */
 .kjor h2 {
   font-size: 1.875em;
   line-height: 1em;
   margin-bottom: 5px;
 }
-/* line 91, ../sass/_kjor.scss */
+/* line 96, ../sass/_kjor.scss */
 .kjor p, .kjor ol, .kjor ul {
   font-size: 1.1em;
   margin-bottom: 20px;
   line-height: 1.6em;
 }
-/* line 97, ../sass/_kjor.scss */
+/* line 102, ../sass/_kjor.scss */
 .kjor .blue {
   color: #0098d4;
 }
-/* line 100, ../sass/_kjor.scss */
+/* line 105, ../sass/_kjor.scss */
 .kjor .subText {
   font-size: 1.875em;
 }
-/* line 104, ../sass/_kjor.scss */
+/* line 109, ../sass/_kjor.scss */
 .kjor section {
   padding: 50px 0;
   width: 100%;
@@ -594,30 +602,30 @@ nav h1 {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 111, ../sass/_kjor.scss */
+/* line 116, ../sass/_kjor.scss */
 .kjor section header {
   margin: 10px auto 50px;
 }
-/* line 114, ../sass/_kjor.scss */
+/* line 119, ../sass/_kjor.scss */
 .kjor section article {
   margin: 40px 0;
 }
-/* line 118, ../sass/_kjor.scss */
+/* line 123, ../sass/_kjor.scss */
 .kjor section:nth-child(even) {
   background: #ffffff;
 }
-/* line 121, ../sass/_kjor.scss */
+/* line 126, ../sass/_kjor.scss */
 .kjor section:nth-child(odd) {
   background: #f4f4f4;
   border-color: #dbdbdb;
   border-width: 2px 0px 2px 0px;
   border-style: solid;
 }
-/* line 139, ../sass/_kjor.scss */
+/* line 144, ../sass/_kjor.scss */
 .kjor section#challenge .right {
   margin-right: 10%;
 }
-/* line 142, ../sass/_kjor.scss */
+/* line 147, ../sass/_kjor.scss */
 .kjor section#challenge #stamp {
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -635,7 +643,7 @@ nav h1 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 150, ../sass/_kjor.scss */
+/* line 155, ../sass/_kjor.scss */
 .kjor section#challenge.animation #stamp, .kjor section#challenge.no-animation #stamp {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -645,13 +653,13 @@ nav h1 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 159, ../sass/_kjor.scss */
+/* line 164, ../sass/_kjor.scss */
 .kjor section#strategyAndUx ol, .kjor section#theGame ol {
   list-style-type: disc;
   margin-left: 1em;
   width: 100%;
 }
-/* line 163, ../sass/_kjor.scss */
+/* line 168, ../sass/_kjor.scss */
 .kjor section#strategyAndUx ol li, .kjor section#theGame ol li {
   display: inline;
   float: left;
@@ -672,21 +680,21 @@ nav h1 {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 173, ../sass/_kjor.scss */
+/* line 178, ../sass/_kjor.scss */
 .kjor section#strategyAndUx ol li:first-child, .kjor section#theGame ol li:first-child {
   margin-left: 0;
 }
-/* line 176, ../sass/_kjor.scss */
+/* line 181, ../sass/_kjor.scss */
 .kjor section#strategyAndUx ol li img, .kjor section#theGame ol li img {
   margin-bottom: 10px;
 }
-/* line 181, ../sass/_kjor.scss */
+/* line 186, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes, .kjor section#theGame #wireframes {
   position: relative;
   min-height: 550px;
   width: 100%;
 }
-/* line 187, ../sass/_kjor.scss */
+/* line 192, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes img, .kjor section#theGame #wireframes img {
   position: relative;
   -webkit-transition: all 1s;
@@ -698,28 +706,28 @@ nav h1 {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 192, ../sass/_kjor.scss */
+/* line 197, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes #top_wire, .kjor section#theGame #wireframes #top_wire {
   z-index: 3;
   left: -150%;
 }
-/* line 196, ../sass/_kjor.scss */
+/* line 201, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes #middle_wire, .kjor section#theGame #wireframes #middle_wire {
   z-index: 2;
   margin-top: -550px;
   left: 150%;
 }
-/* line 201, ../sass/_kjor.scss */
+/* line 206, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes #bottom_wire, .kjor section#theGame #wireframes #bottom_wire {
   z-index: 1;
   left: -150%;
   margin-top: -550px;
 }
-/* line 208, ../sass/_kjor.scss */
+/* line 213, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #wireframes.animation img, .kjor section#strategyAndUx #wireframes.no-animation img, .kjor section#theGame #wireframes.animation img, .kjor section#theGame #wireframes.no-animation img {
   left: 0 !important;
 }
-/* line 215, ../sass/_kjor.scss */
+/* line 220, ../sass/_kjor.scss */
 .kjor section#strategyAndUx.animation ol li, .kjor section#theGame.animation ol li {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -731,7 +739,7 @@ nav h1 {
   -o-animation-name: pop-in;
   animation-name: pop-in;
 }
-/* line 221, ../sass/_kjor.scss */
+/* line 226, ../sass/_kjor.scss */
 .kjor section#strategyAndUx.no-animation ol li, .kjor section#theGame.no-animation ol li {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -739,22 +747,22 @@ nav h1 {
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 226, ../sass/_kjor.scss */
+/* line 231, ../sass/_kjor.scss */
 .kjor section#strategyAndUx #kjorLogo, .kjor section#theGame #kjorLogo {
   width: 70%;
 }
-/* line 233, ../sass/_kjor.scss */
+/* line 238, ../sass/_kjor.scss */
 .kjor section#design .phoneText {
   width: 33%;
 }
-/* line 236, ../sass/_kjor.scss */
+/* line 241, ../sass/_kjor.scss */
 .kjor section#design #phoneStack {
   position: relative;
   text-align: center;
   float: left;
   width: 65%;
 }
-/* line 241, ../sass/_kjor.scss */
+/* line 246, ../sass/_kjor.scss */
 .kjor section#design #phoneStack img {
   width: auto;
   position: relative;
@@ -777,40 +785,40 @@ nav h1 {
   -o-transition-delay: 0;
   transition-delay: 0;
 }
-/* line 249, ../sass/_kjor.scss */
+/* line 254, ../sass/_kjor.scss */
 .kjor section#design #phoneStack #iPhone {
   z-index: 2;
   float: left;
 }
-/* line 253, ../sass/_kjor.scss */
+/* line 258, ../sass/_kjor.scss */
 .kjor section#design #phoneStack #android {
   z-index: 1;
   left: -80px;
   margin-top: -740px;
 }
-/* line 261, ../sass/_kjor.scss */
+/* line 266, ../sass/_kjor.scss */
 .kjor section#design.animation #phoneStack #android {
   left: 100px;
 }
-/* line 267, ../sass/_kjor.scss */
+/* line 272, ../sass/_kjor.scss */
 .kjor section#design.no-animation #phoneStack {
   text-align: center;
 }
-/* line 270, ../sass/_kjor.scss */
+/* line 275, ../sass/_kjor.scss */
 .kjor section#design.no-animation #phoneStack #android,
 .kjor section#design.no-animation #phoneStack #iPhone {
   left: 0;
 }
-/* line 274, ../sass/_kjor.scss */
+/* line 279, ../sass/_kjor.scss */
 .kjor section#design.no-animation #phoneStack #android {
   margin-top: 0;
   float: left;
 }
-/* line 284, ../sass/_kjor.scss */
+/* line 289, ../sass/_kjor.scss */
 .kjor section#team {
   text-align: center;
 }
-/* line 289, ../sass/_kjor.scss */
+/* line 294, ../sass/_kjor.scss */
 .kjor section#team header h1 img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -827,7 +835,7 @@ nav h1 {
   -o-transition-delay: 1.2s;
   transition-delay: 1.2s;
 }
-/* line 295, ../sass/_kjor.scss */
+/* line 300, ../sass/_kjor.scss */
 .kjor section#team header h1 span {
   -webkit-transition: left 1s;
   -moz-transition: left 1s;
@@ -844,7 +852,7 @@ nav h1 {
   position: relative;
   left: -40px;
 }
-/* line 305, ../sass/_kjor.scss */
+/* line 310, ../sass/_kjor.scss */
 .kjor section#team img {
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
@@ -855,51 +863,51 @@ nav h1 {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 310, ../sass/_kjor.scss */
+/* line 315, ../sass/_kjor.scss */
 .kjor section#team #drawingImage {
   position: relative;
   width: 100%;
 }
-/* line 313, ../sass/_kjor.scss */
+/* line 318, ../sass/_kjor.scss */
 .kjor section#team #drawingImage img {
   position: relative;
 }
-/* line 316, ../sass/_kjor.scss */
+/* line 321, ../sass/_kjor.scss */
 .kjor section#team #drawingImage #drawings {
   z-index: 2;
   top: -44px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 321, ../sass/_kjor.scss */
+/* line 326, ../sass/_kjor.scss */
 .kjor section#team #drawingImage #people {
   z-index: 1;
   margin-top: -331px;
 }
-/* line 332, ../sass/_kjor.scss */
+/* line 337, ../sass/_kjor.scss */
 .kjor section#team.animation header h1 img, .kjor section#team.no-animation header h1 img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 335, ../sass/_kjor.scss */
+/* line 340, ../sass/_kjor.scss */
 .kjor section#team.animation header h1 span, .kjor section#team.no-animation header h1 span {
   left: 0px;
 }
-/* line 341, ../sass/_kjor.scss */
+/* line 346, ../sass/_kjor.scss */
 .kjor section#team.animation #drawingImage #drawings, .kjor section#team.no-animation #drawingImage #drawings {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 349, ../sass/_kjor.scss */
+/* line 354, ../sass/_kjor.scss */
 .kjor section#results header blockquote {
   font-size: 3.875em;
   font-family: StagMedium;
 }
-/* line 354, ../sass/_kjor.scss */
+/* line 359, ../sass/_kjor.scss */
 .kjor section#results ul {
   font-weight: bold;
 }
-/* line 356, ../sass/_kjor.scss */
+/* line 361, ../sass/_kjor.scss */
 .kjor section#results ul span {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -918,35 +926,35 @@ nav h1 {
   position: relative;
   top: -1px;
 }
-/* line 365, ../sass/_kjor.scss */
+/* line 370, ../sass/_kjor.scss */
 .kjor section#results ul span.blueBullett {
   background: #0098d4;
 }
-/* line 366, ../sass/_kjor.scss */
+/* line 371, ../sass/_kjor.scss */
 .kjor section#results ul span.greyBullett {
   background: #666666;
 }
-/* line 378, ../sass/_kjor.scss */
+/* line 383, ../sass/_kjor.scss */
 .kjor footer {
   background: #f4f4f4;
   border-color: #dbdbdb;
   border-width: 2px 0px 2px 0px;
   border-style: solid;
 }
-/* line 384, ../sass/_kjor.scss */
+/* line 389, ../sass/_kjor.scss */
 .kjor footer p {
   margin-top: 20px;
   float: left;
   text-align: left;
   width: 100%;
 }
-/* line 390, ../sass/_kjor.scss */
+/* line 395, ../sass/_kjor.scss */
 .kjor footer p a {
   display: inline;
   width: auto;
   float: none;
 }
-/* line 397, ../sass/_kjor.scss */
+/* line 402, ../sass/_kjor.scss */
 .kjor footer a {
   width: 30%;
   float: left;
@@ -954,69 +962,69 @@ nav h1 {
   text-decoration: underline;
   color: #666;
 }
-/* line 404, ../sass/_kjor.scss */
+/* line 409, ../sass/_kjor.scss */
 .kjor footer a:first-child {
   margin-left: 0;
 }
 @media screen and (max-width: 650px) {
-  /* line 412, ../sass/_kjor.scss */
+  /* line 417, ../sass/_kjor.scss */
   .kjor .oneFourths, .kjor .twoFourths, .kjor .threeFourths, .kjor .fourFourths,
   .kjor .oneFifths, .kjor .twoFifths, .kjor .threeFifths, .kjor .fourFifths, .kjor .fiveFifts, .kjor .phoneText {
     width: 100% !important;
     padding: 0;
   }
-  /* line 419, ../sass/_kjor.scss */
+  /* line 424, ../sass/_kjor.scss */
   .kjor header #title {
     font-size: 2.1875em;
   }
-  /* line 423, ../sass/_kjor.scss */
+  /* line 428, ../sass/_kjor.scss */
   .kjor blockquote {
     margin-bottom: 20px;
   }
-  /* line 426, ../sass/_kjor.scss */
+  /* line 431, ../sass/_kjor.scss */
   .kjor .subText {
     font-size: 1em;
   }
-  /* line 429, ../sass/_kjor.scss */
+  /* line 434, ../sass/_kjor.scss */
   .kjor h1 {
     font-size: 1.5em;
   }
-  /* line 432, ../sass/_kjor.scss */
+  /* line 437, ../sass/_kjor.scss */
   .kjor h2 {
     font-size: 1.25em;
   }
-  /* line 435, ../sass/_kjor.scss */
+  /* line 440, ../sass/_kjor.scss */
   .kjor p, .kjor li, .kjor blockquote {
     font-size: 0.875em;
     line-height: 1.3em;
   }
-  /* line 439, ../sass/_kjor.scss */
+  /* line 444, ../sass/_kjor.scss */
   .kjor section {
     padding: 10px 0;
   }
-  /* line 444, ../sass/_kjor.scss */
+  /* line 449, ../sass/_kjor.scss */
   .kjor #strategyAndUx ol li {
     width: 40% !important;
     margin-bottom: 12px;
   }
-  /* line 447, ../sass/_kjor.scss */
+  /* line 452, ../sass/_kjor.scss */
   .kjor #strategyAndUx ol li:first-child {
     margin-left: 5% !important;
   }
-  /* line 453, ../sass/_kjor.scss */
+  /* line 458, ../sass/_kjor.scss */
   .kjor #rimiLogo {
     width: 60px !important;
     margin: 0 abuto;
   }
-  /* line 457, ../sass/_kjor.scss */
+  /* line 462, ../sass/_kjor.scss */
   .kjor #drawings {
     display: none;
   }
-  /* line 460, ../sass/_kjor.scss */
+  /* line 465, ../sass/_kjor.scss */
   .kjor #people {
     margin-top: 0 !important;
   }
-  /* line 463, ../sass/_kjor.scss */
+  /* line 468, ../sass/_kjor.scss */
   .kjor #stamp {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
@@ -1024,50 +1032,50 @@ nav h1 {
     -o-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  /* line 466, ../sass/_kjor.scss */
+  /* line 471, ../sass/_kjor.scss */
   .kjor footer {
     padding: 0 !important;
     margin-top: -50px;
   }
-  /* line 469, ../sass/_kjor.scss */
+  /* line 474, ../sass/_kjor.scss */
   .kjor footer a {
     width: 100% !important;
     margin-left: 0 !important;
     text-align: center;
   }
-  /* line 476, ../sass/_kjor.scss */
+  /* line 481, ../sass/_kjor.scss */
   .kjor #strategyAndUx #wireframes {
     min-height: 1px !important;
   }
-  /* line 479, ../sass/_kjor.scss */
+  /* line 484, ../sass/_kjor.scss */
   .kjor #strategyAndUx #wireframes img {
     margin-top: 0px !important;
     left: 0px !important;
   }
-  /* line 484, ../sass/_kjor.scss */
+  /* line 489, ../sass/_kjor.scss */
   .kjor #strategyAndUx .oneFifths.left.first {
     width: 100%;
     text-align: center;
     display: block;
     margin-bottom: 20px;
   }
-  /* line 490, ../sass/_kjor.scss */
+  /* line 495, ../sass/_kjor.scss */
   .kjor #strategyAndUx #middle_wire, .kjor #strategyAndUx #bottom_wire {
     display: none;
   }
-  /* line 495, ../sass/_kjor.scss */
+  /* line 500, ../sass/_kjor.scss */
   .kjor #design #phoneStack {
     width: 100% !important;
   }
-  /* line 497, ../sass/_kjor.scss */
+  /* line 502, ../sass/_kjor.scss */
   .kjor #design #phoneStack #iPhone, .kjor #design #phoneStack #android {
     width: 45%;
   }
-  /* line 500, ../sass/_kjor.scss */
+  /* line 505, ../sass/_kjor.scss */
   .kjor #design #phoneStack #android {
     float: right;
   }
-  /* line 503, ../sass/_kjor.scss */
+  /* line 508, ../sass/_kjor.scss */
   .kjor #design #phoneStack #iPhone {
     float: left;
   }

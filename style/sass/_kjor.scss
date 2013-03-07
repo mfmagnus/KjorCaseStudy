@@ -6,6 +6,7 @@
     overflow-x:hidden; 
     
     //Grid
+
     .oneFourths,
     .twoFourths,
     .threeFourths,
@@ -21,6 +22,10 @@
         }
     }
     
+    .oneThirds {width:33%;}
+    .twoThirds {width:66%;}
+    
+   
     .oneFourths{width: 23%;}
     .twoFourths{width:47%;}
     .threeFourths{width:72%;}
