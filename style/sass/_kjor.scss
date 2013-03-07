@@ -32,10 +32,12 @@
     .fourFifths{width:78%;}
     .fiveFifts{width:100%;}
     
+    font-family: "StagSansLight", "Century Gothic" , 'Didact Gothic', sans-serif; 
+    
     // Main Title
     #title {
         color: #333333;
-        font-family: "Century Gothic" , 'Didact Gothic', sans-serif; 
+        font-family: "StagSemiBold", "Century Gothic" , 'Didact Gothic', sans-serif; 
         font-weight: bold;
 		font-size: 5.625em;
     }
@@ -50,6 +52,7 @@
             color: #2a2a2a; 
         }
         h1{
+	        font-family: "StagLight";
             border-left: 1px solid #262626;
             color: #e2a90e; 
         }
@@ -75,7 +78,7 @@
     em{
         font-weight: bold; 
     }
-    h1,h2,h3{font-family: "Century Gothic" , 'Didact Gothic', sans-serif; font-weight: bold;}
+    h1,h2,h3{font-family: "StagSansMedium", "Century Gothic" , 'Didact Gothic', sans-serif; font-weight: bold;}
     h1{
         font-size: 2.5em;
         line-height: 1.3em;
@@ -86,7 +89,7 @@
         margin-bottom: 5px; 
     }
     p,ol,ul{
-        font-size: 1em;
+        font-size: 1.1em;
         margin-bottom: 20px;
 		line-height: 1.6em;
         
@@ -345,7 +348,7 @@
         	header {
         		blockquote {
 					font-size: 3.875em;
-					font-weight: bold;					
+					font-family: StagMedium;
         		}
         	}
             ul{

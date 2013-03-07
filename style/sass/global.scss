@@ -144,6 +144,52 @@ iframe,object,embed{
 }
 
 
+@font-face {
+	font-family: StagBold;
+	src: url("../../font/Stag/Stag-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSemiBold;
+	src: url("../../font/Stag/Stag-Semibold.otf") format("opentype");
+}
+@font-face {
+	font-family: StagMedium;
+	src: url("../../font/Stag/Stag-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: StagLight;
+	src: url("../../font/Stag/Stag-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: StagSansBold;
+	src: url("../../font/StagSans/StagSans-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansBlack;
+	src: url("../../font/StagSans/StagSans-Black.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansSemiBold;
+	src: url("../../font/StagSans/StagSans-Semibold.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansMedium;
+	src: url("../../font/StagSans/StagSans-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansBook;
+	src: url("../../font/StagSans/StagSans-Book.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansLight;
+	src: url("../../font/StagSans/StagSans-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: StagSansThin;
+	src: url("../../font/StagSans/StagSans-Thin.otf") format("opentype");
+}
+
 
 @media screen and (max-width: 650px){
     .left,.right,.center{
